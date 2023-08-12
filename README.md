@@ -26,4 +26,8 @@ Files related to the generative diffusion model are:
 - positional_embeddings.py: support file for the diffusion model.
 - model_XXX.pth: model files that were trained (3 files: PCA, full model, rotation_translation only)
 
+**NOTE**
+The folders containing the sEMG spectrogram database (sEMG_dataset), and the folders containing the grasps, objects and validation files for the generative model (dataset_grasps_full, dataset_objects_full, dataset_val) couldn't be uploaded to the GitHub.
+As a result, these are publically available in the following Drive link: https://drive.google.com/drive/folders/1ZxY_UN6fsv8XJhpWT3txyy-MTtA8r1LS?usp=sharing
+
 
