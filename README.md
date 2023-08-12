@@ -16,3 +16,14 @@ Files related to this first sEMG classification part are:
 
 **SECOND PART**
 Files related to the generative diffusion model are:
+- dataset_grasps_full: folder that contains the dataset of grasps with which the model was trained.
+- dataset_objects_full: folder that contains the dataset of objects with which the model was trained.
+- dataset_val: folder containing the validation files on which the diffusion results were obtained.
+- mjcf, thirdparty, utils: folders for support files, contianing 3D hand functions and objects.
+- diffusion.ipynb: main jupyter file, full pipeline can be found here.
+- ddpm_ours.py: diffusion model file. Can be called directly.
+- grasp_object_dataset.py: file containing the dataset and dataloader generation for the diffusion model.
+- positional_embeddings.py: support file for the diffusion model.
+- model_XXX.pth: model files that were trained (3 files: PCA, full model, rotation_translation only)
+
+
